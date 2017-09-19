@@ -1,33 +1,49 @@
 
 body{
-  background: #E5E7E9;
+
   font-family: raleway;
 }
+.temp-clear{
+  margin-top:50%;
+}
 
-/*-----------Banner and Navigation Menu Positioning---------*/
 .sliderContainer{
   position: relative;
 }
-.myNav{
-  position: absolute;
-  background: #fff
-}
-.carousel{
+
+.carousel-inner{
   z-index: -1;
 }
 
-.container{
-  /*width: 50%;*/
-  margin: 0 auto;
-  background: inherit;
-}
+
 
 /* Navigation Menu */
 .nav{
   font-size:21px;
 }
+.myNav{
+  background: #fff;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.myNav ul{
+    display: inline-block;
+    padding: 20px;
+}
 
 
+
+/*-----------Container styling ---------*/
+
+.container{
+  width: 90%;
+  margin: 0 auto;
+  background: inherit;
+  background: #E5E7E9;
+}
+
+/*------------Sign up form ------------*/
 
 .form{
   margin: auto;
@@ -56,5 +72,13 @@ input{
    margin-bottom: 10px;
 }
 .input-group-addon{
-  min-width:74px
+  min-width:74px;
+}
+/*--------- Three col on hompage ----------*/
+
+.col-info{
+
+}
+.col-info img{
+  max-width: 96%
 }

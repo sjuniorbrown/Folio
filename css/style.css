@@ -1,10 +1,14 @@
+/*This is the main container for the site*/
+.container{
+  width: 100%;
+}
+
 
 body{
-
   font-family: raleway;
 }
 .temp-clear{
-  margin-top:50%;
+  margin-top:100%;
 }
 
 .sliderContainer{
@@ -34,13 +38,13 @@ body{
 
 
 
-/*-----------Container styling ---------*/
+/*-----------container for the content ---------*/
 
-.container{
+.content{
   width: 90%;
   margin: 0 auto;
   background: inherit;
-  background: #E5E7E9;
+
 }
 
 /*------------Sign up form ------------*/
@@ -80,5 +84,6 @@ input{
 
 }
 .col-info img{
-  max-width: 96%
+  max-width: 100%;
+  margin-top:7%
 }

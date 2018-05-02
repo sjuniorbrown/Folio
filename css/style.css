@@ -1,6 +1,7 @@
 /*This is the main container for the site*/
 .container{
   width: 100%;
+  padding: 0px;
 }
 
 
@@ -47,6 +48,7 @@ body{
 
 }
 
+}
 /*------------Sign up form ------------*/
 
 .form{
@@ -80,10 +82,25 @@ input{
 }
 /*--------- Three col on hompage ----------*/
 
-.col-info{
-
-}
 .col-info img{
   max-width: 100%;
   margin-top:7%
+}
+
+.col-info p{
+  padding-top: 4%;
+  font-size: 20px;
+}
+
+
+
+/*This is the footer  section*/
+
+footer{
+  width:100%;
+  background: #000;
+  margin-top:40px;
+  height: 50px;
+  clear:both;
+
 }

@@ -1,3 +1,5 @@
+// This is an object template Pass in 
+
 function person(name, age, gender, race, city){
   this.name = name;
   this.age = age;
